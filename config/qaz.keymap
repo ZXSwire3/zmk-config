@@ -33,6 +33,16 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+        combo_back {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp BACKSPACE>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp ESC>;
+        };
     };
 };
 
