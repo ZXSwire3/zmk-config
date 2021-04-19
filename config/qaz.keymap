@@ -41,7 +41,7 @@
         combo_tab {
             timeout-ms = <50>;
             key-positions = <10 11>; //a and s
-            bindings = <&kp ESC>;
+            bindings = <&kp TAB>;
         };
         combo_enter {
             timeout-ms = <50>;
