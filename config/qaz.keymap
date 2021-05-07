@@ -97,8 +97,8 @@
     &kp Q      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp I       &kp O       &kp P
     &kp A      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
     &kp LSHFT  &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL  &kp LGUI   &kp LALT              &kp SPACE              &tog FPS       &kp SEMI       &kp BSLH       &kp FSLH
+    &kp LCTRL  &kp LGUI   &kp LALT              &kp SPACE              &tog FPS       &kp SEMI    &kp BSLH    &kp FSLH
             >;
-        }
+        };
     };
 };
