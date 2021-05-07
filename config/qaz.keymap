@@ -85,19 +85,19 @@
 
         nav {
             bindings = <
-    &bt BT_CLR &bt BT_NXT &bt BT_PRV &none       &none &none &none       &kp UP       &none     &kp DEL
-    &trans     &trans     &trans     &trans      &none &none &kp LEFT    &kp DOWN     &kp RIGHT &none
-    &sk LSHFT                 &none      &none       &none &none &none       &none        &none     &none
-    &bootloader &reset    &none         &trans        &trans             &none      &trans    &trans
+    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_NXT   &bt BT_CLR   &none        &none        &kp UP       &none        &kp DEL
+    &trans       &trans       &trans       &trans       &none        &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none
+    &sk LSHFT    &none        &none        &none        &none        &none        &none        &none        &none
+    &bootloader  &reset       &none                  &trans                  &trans            &none        &trans       &trans
             >;
         };
 
         fps {
             bindings = <
-    &kp Q      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp I       &kp O       &kp P
-    &kp A      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
-    &kp LSHFT  &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL  &kp LGUI   &kp LALT              &kp SPACE              &tog FPS       &kp SEMI    &kp BSLH    &kp FSLH
+    &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
+    &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
+    &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
+    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM           &kp SEMI    &kp BSLH    &tog FPS
             >;
         };
     };
