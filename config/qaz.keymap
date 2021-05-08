@@ -12,8 +12,7 @@
 #define NUM_SYM 1
 #define NAV     2
 #define FPS     3
-#define LEAGUE  4
-#define FLASH   5
+#define FLASH   4
 
 / {
     behaviors {
@@ -100,15 +99,6 @@
     &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
     &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
     &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM           &kp SEMI    &kp BSLH    &tog FPS
-            >;
-        };
-
-        league {
-            bindings = <
-    &kp GRAVE    &kp N1     &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9
-    &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp Y       &kp K       &kp L       &kp SQT
-    &kp LSHFT    &kp Z      &kp X       &kp C       &kp D       &kp F       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM           &kp SEMI    &kp BSLH    &tog LEAGUE
             >;
         };
 
