@@ -107,7 +107,7 @@
             bindings = <
     &kp GRAVE    &kp N1     &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9
     &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp Y       &kp K       &kp L       &kp SQT
-    &kp LSHFT    &kp Z      &kp X       &kp C       &kp D       &kp F       &kp M       &kp COMMA   &kp DOT
+    &kp LSHFT    &kp Z      &kp X       &kp D       &kp F       &kp B       &kp M       &kp COMMA   &kp DOT
     &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM           &kp SEMI    &kp BSLH    &tog LEAGUE
             >;
         };
