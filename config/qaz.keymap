@@ -81,7 +81,7 @@
     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5 &kp N6 &kp N7     &kp N8      &kp N9    &kp N0
     &trans     &trans     &trans     &trans     &trans &kp PLUS &kp MINUS     &kp EQUAL  &kp LBKT &kp RBKT
     &sk LSHFT               &none      &none      &none  &none  &none      &none       &none     &kp GRAVE
-    &trans     &trans      &trans        &trans        &trans             &tog FPS     &tog LEAGUE    &trans
+    &trans     &trans      &trans        &trans        &trans             &to 3     &tog LEAGUE    &trans
             >;
         };
 
@@ -99,7 +99,7 @@
     &kp ESC      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
     &kp TAB      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
     &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &lt NUM_SYM CAPSLOCK        &kp SEMI    &kp BSLH    &tog FPS
+    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &lt NUM_SYM CAPSLOCK        &kp SEMI    &kp BSLH    &to 0
             >;
         };
 
