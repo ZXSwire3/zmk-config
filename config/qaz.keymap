@@ -99,7 +99,7 @@
     &kp ESC      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
     &kp TAB      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
     &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &lt NUM_SYM CAPSLOCK        &kp SEMI    &kp BSLH    &to 0
+    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &to 2        &kp SEMI    &kp BSLH    &to 0
             >;
         };
 
