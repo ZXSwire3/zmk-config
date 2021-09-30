@@ -75,7 +75,7 @@
         nav {
             bindings = <
     &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_NXT   &bt BT_CLR   &none        &none        &kp UP       &none        &kp DEL
-    &trans       &trans       &trans       &trans       &none        &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none
+    &out OUT_TOG &trans       &trans       &trans       &none        &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none
     &sk LSHFT    &none        &none        &none        &none        &none        &none                     &kp PG_UP    &kp C_VOL_UP
     &trans       &trans       &none                  &trans                  &trans            &none        &kp PG_DN    &kp C_VOL_DN
             >;
