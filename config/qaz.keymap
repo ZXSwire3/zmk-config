@@ -26,6 +26,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        br: bottomrow_mods {
+            compatible = "zmk,behavior-layer-tap";
+            label = "bottomrow mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
     };
 };
 
@@ -69,7 +76,7 @@
     &kp Q      &kp W      &kp E       &kp R       &kp T  &kp Y       &kp U       &kp I       &kp O      &kp P
     &kp A      &kp S      &kp D       &kp F       &kp G  &kp H       &kp J       &kp K       &kp L      &kp SQT
     &hm LSHFT Z  &kp X    &kp C       &kp V       &kp B  &kp N       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL  &kp LGUI   &kp LALT       &lt NAV SPACE    &lt NUM_SYM CAPSLOCK   &kp SEMI   &kp BSLH    &lt FLASH FSLH
+    &kp LCTRL  &kp LGUI   &kp LALT       &br NAV SPACE    &lt NUM_SYM CAPSLOCK   &kp SEMI   &kp BSLH    &lt FLASH FSLH
             >;
         };
         
