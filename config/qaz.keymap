@@ -27,7 +27,7 @@
             bindings = <&kp>, <&kp>;
         };
         br: bottomrow_mods {
-            compatible = "zmk,behavior-layer-tap";
+            compatible = "zmk,behavior-hold-tap";
             label = "bottomrow mods";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
