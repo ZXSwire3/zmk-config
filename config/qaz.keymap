@@ -14,7 +14,8 @@
 #define FPS     2
 #define LEAGUE  3
 #define NUM_SYM 4
-#define FLASH   5
+#define F_ROW   5
+#define FLASH   6 
 
 / {
     behaviors {
@@ -108,12 +109,21 @@
             >;
         };
 
-    num_sym {
+        num_sym {
             bindings = <
     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5 &kp N6 &kp N7     &kp N8      &kp N9    &kp N0
     &trans     &trans     &trans     &trans     &trans &kp PLUS &kp MINUS     &kp EQUAL  &kp LBKT &kp RBKT
     &sk LSHFT               &none      &none      &none  &none  &none      &none       &none     &kp GRAVE
-    &trans     &trans      &trans        &trans        &trans             &tog FPS     &tog LEAGUE    &trans
+    &trans     &trans      &trans        &trans        &trans             &mo F_ROW    &trans    &trans
+            >;
+        };
+
+        f_row {
+            bindings = <
+    &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp  F10
+    &trans &trans &trans &trans &trans &trans &trans &trans &kp F11 &kp F12
+    &trans &trans &trans &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans      &trans      &trans     &trans &trans &trans
             >;
         };
         
@@ -122,7 +132,7 @@
     &kp Q        &none      &none       &none       &none       &none       &none       &none       &none       &none
     &none        &none      &none       &none       &none       &none       &none       &none       &none       &none
     &none        &none      &none       &none       &none       &none       &none       &none       &none       
-    &bootloader  &reset     &none              &none              &none                 &none       &none       &none
+    &bootloader  &reset     &none              &none              &none                 &tog FPS    &tog LEAGUE &none
             >;
         };
     };
