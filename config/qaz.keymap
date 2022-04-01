@@ -42,17 +42,17 @@
     combos {
         compatible = "zmk,combos";
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <0 1>; //q and w
             bindings = <&kp ESC>;
         };
         combo_back {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <8 9>; //o and p
             bindings = <&kp BACKSPACE>;
         };
         combo_tab {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <10 11>; //a and s
             bindings = <&kp TAB>;
         };
@@ -66,6 +66,11 @@
             key-positions = <27 28>; // , and .
             bindings = <&kp RSHFT>;
         };
+        combo_caps {
+            timeout-ms = <30>;
+            key-positions = <27 28>; // , and .
+            bindings = <&kp RSHFT>;
+        }; 
     };
 };
 
@@ -93,8 +98,8 @@
 
         fps {
             bindings = <
-    &kp ESC      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
-    &kp TAB      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
+    &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
+    &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
     &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
     &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM        &kp SEMI       &kp BSLH    &tog FPS
             >;
@@ -102,7 +107,7 @@
 
         league {
             bindings = <
-    &kp GRAVE    &kp N1     &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9
+    &kp GRAVE    &kp N1     &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9t
     &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp Y       &kp K       &kp L       &kp SQT
     &kp LSHFT    &kp Z      &kp X       &kp D       &kp F       &kp B       &kp M       &kp COMMA   &kp DOT
     &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM           &kp SEMI    &kp BSLH    &tog LEAGUE
