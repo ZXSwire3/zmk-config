@@ -89,19 +89,19 @@
         
         nav {
             bindings = <
-    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR   &none        &none        &none        &kp UP       &none        &kp DEL
-    &out OUT_USB &out OUT_BLE &trans       &trans       &none        &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none
+    &none        &none        &none        &none        &none        &none        &none        &kp UP       &none        &kp DEL
+    &none        &none        &none        &none        &none        &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none
     &sk LSHFT    &none        &none        &none        &none        &none        &none                     &kp PG_UP    &kp C_VOL_UP
-    &trans       &trans       &none                  &trans                  &trans            &kp C_PP     &kp PG_DN    &kp C_VOL_DN
+    &trans       &trans       &trans                 &trans                  &trans            &kp C_PP     &kp PG_DN    &kp C_VOL_DN
             >;
         };
 
         fps {
             bindings = <
-    &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp P
-    &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp SQT
-    &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp DOT
-    &kp LCTRL    &kp LGUI   &kp LALT           &kp SPACE          &mo NUM_SYM        &kp SEMI       &kp BSLH    &tog FPS
+    &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp C_VOL_UP
+    &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp C_VOL_DN
+    &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp C_PP
+    &kp LCTRL    &none      &kp LALT           &kp SPACE          &mo NUM_SYM        &kp RGUI       &kp RALT    &tog FPS
             >;
         };
 
@@ -134,9 +134,9 @@
         
         flash {
             bindings = <
-    &kp Q        &none      &none       &none       &none       &none       &none       &none       &none       &none
-    &none        &none      &none       &none       &none       &none       &none       &none       &none       &none
-    &none        &none      &none       &none       &none       &none       &none       &none       &none       
+    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR &none       &none       &none       &none       &none       &none
+    &out OUT_USB &out OUT_BLE &none        &none      &none       &none       &none       &none       &none       &none
+    &none        &none        &none        &none      &none       &none       &none       &none       &none       
     &bootloader  &reset     &none              &none              &none                 &tog FPS    &tog LEAGUE &none
             >;
         };
