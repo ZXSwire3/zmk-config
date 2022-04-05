@@ -35,6 +35,13 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
+        gresc: grave_escape {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRAVE_ESCAPE";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&kp GRAVE>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        };
     };
 };
 
@@ -44,7 +51,7 @@
         combo_esc {
             timeout-ms = <30>;
             key-positions = <0 1>; //q and w
-            bindings = <&kp ESC>;
+            bindings = <&gresc>;
         };
         combo_back {
             timeout-ms = <30>;
@@ -99,7 +106,7 @@
         fps {
             bindings = <
     &kp TAB      &kp Q      &kp W       &kp E       &kp R       &kp T       &kp N1      &kp N2      &kp O       &kp C_VOL_UP
-    &kp CAPSLOCK &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp C_VOL_DN
+    &kp TAB      &kp A      &kp S       &kp D       &kp F       &kp G       &kp J       &kp K       &kp L       &kp C_VOL_DN
     &kp LSHFT    &kp Z      &kp X       &kp C       &kp V       &kp B       &kp M       &kp COMMA   &kp C_PP
     &kp LCTRL    &none      &kp LALT           &kp SPACE          &mo NUM_SYM        &kp RGUI       &kp RALT    &tog FPS
             >;
@@ -134,7 +141,7 @@
         
         flash {
             bindings = <
-    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR &none       &none       &none       &none       &none       &kp Q
+    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR &none       &none       &none       &none       &none       &none
     &out OUT_USB &out OUT_BLE &none        &none      &none       &none       &none       &none       &none       &none
     &none        &none        &none        &none      &none       &none       &none       &none       &none       
     &bootloader  &reset     &none              &none              &none                 &tog FPS    &tog LEAGUE &none
