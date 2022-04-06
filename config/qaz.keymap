@@ -105,10 +105,10 @@
 
         fps {
             bindings = <
-    &kp TAB      &kp Q        &kp W         &kp E       &kp R        &kp T        &kp N1       &kp N2        &kp O         &kp C_VOL_UP
-    &kp TAB      &kp A        &kp S         &kp D       &kp F        &kp G        &kp J        &kp K         &kp L         &kp C_VOL_DN
+    &kp TAB      &kp Q        &kp W         &kp E       &kp R        &kp T        &kp Y        &kp I         &kp O         &kp C_VOL_UP
+    &kp TAB      &kp A        &kp S         &kp D       &kp F        &kp G        &kp H        &kp K         &kp L         &kp C_VOL_DN
     &kp LSHFT    &kp Z        &kp X         &kp C       &kp V        &kp B        &kp M                      &kp COMMA     &kp C_PP
-    &kp LCTRL    &none        &kp LALT               &kp SPACE               &mo NUM_SYM       &kp RGUI      &kp RALT      &tog FPS
+    &kp LCTRL    &none        &kp LALT               &kp SPACE               &br NUM_SYM SPACE &kp RGUI      &kp RALT      &tog FPS
             >;
         };
 
@@ -117,7 +117,7 @@
     &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7        &kp N8        &kp N9
     &kp TAB      &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp K         &kp L         &kp SQT
     &kp LSHFT    &kp Z        &kp X        &kp D        &kp F        &kp B        &kp M                      &kp COMMA     &kp DOT
-    &kp LCTRL    &kp LGUI     &kp LALT               &kp SPACE               &mo NUM_SYM       &kp SEMI      &kp BSLH      &tog LEAGUE
+    &kp LCTRL    &kp LGUI     &kp LALT               &kp SPACE               &kp SPACE         &kp SEMI      &kp BSLH      &tog LEAGUE
             >;
         };
 
