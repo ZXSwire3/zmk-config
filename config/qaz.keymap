@@ -15,7 +15,9 @@
 #define LEAGUE  3
 #define NUM_SYM 4
 #define F_ROW   5
-#define FLASH   6 
+#define LOCK    6
+#define FLASH   7
+
 
 / {
     behaviors {
@@ -139,11 +141,20 @@
             >;
         };
         
+        lock {
+            bindings = <
+    &none        &none        &none         &none       &none        &none        &none        &none         &none         &none
+    &none        &none        &none         &none       &none        &none        &none        &none         &none         &none
+    &none        &none        &none         &none       &none        &none        &none        &none         &none         &trans
+    &none        &none        &none                 &none                    &none             &none         &none         &mo FLASH
+            >;
+        };
+        
         flash {
             bindings = <
     &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_CLR  &none        &none        &none        &none         &none         &none
     &out OUT_USB &out OUT_BLE &none         &none       &none        &none        &none        &none         &none         &none
-    &none        &none        &none         &none       &none        &none        &none                      &none         &none       
+    &none        &none        &none         &none       &none        &none        &none                      &none         &tog LOCK
     &bootloader  &reset       &none                 &none                    &none             &tog FPS      &tog LEAGUE   &none
             >;
         };
