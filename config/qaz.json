@@ -1,7 +1,7 @@
 {
     "layouts": {
-      "default": {
-        "default_layer": [
+      "LAYOUT": {
+        "layout": [
           { "label":    "Q", "row": 0, "col": 0, "x":    0, "y": 0 },
           { "label":    "W", "row": 0, "col": 1, "x":    1, "y": 0 },
           { "label":    "E", "row": 0, "col": 2, "x":    2, "y": 0 },
